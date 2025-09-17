@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70.39px);
+    color: white;
+    text-align: center;
+}
+
+.home::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: var(--purple-home) url(/assets/background.jpg);
+    background-blend-mode: soft-light;
+    backdrop-filter: blur(1.5px);
+    background-size: cover;
+    background-position: center;
+    filter: saturate(0.5);
+    z-index: -1;
+}
+
+.home h1 {
+    font-weight: 777;
+    font-style: normal;
+    font-size: 29px;
+}
+
+.buttonHome {
+    background-color: var(--purple-base);
+    border-radius: 7px;
+    margin-top: 5px;
+    padding: 10px;
+    text-decoration: none;
+}

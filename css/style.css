@@ -1,0 +1,16 @@
+:root {
+    --purple-base: #592DA1;
+    --purple-home: #391D66;
+    --purple-bg: #8442ED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Rubik", sans-serif;
+}

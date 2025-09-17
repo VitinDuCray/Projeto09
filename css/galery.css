@@ -1,0 +1,15 @@
+.galery {
+    height: 70vh;
+    background-color: var(--purple-bg);
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: auto;
+}
